@@ -61,5 +61,7 @@ poetry.lock
 
 # pdm
 pdm.lock
+.pdm-python
 
+# env
 .env
