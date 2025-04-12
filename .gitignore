@@ -1,0 +1,65 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 資料
+data/
+
+# 虛擬環境
+venv/
+env/
+ENV/
+.venv/
+.pyenv/
+
+# 套件安裝紀錄
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Jupyter Notebook checkpoint
+.ipynb_checkpoints/
+
+# VSCode 設定檔（如果使用 VSCode）
+.vscode/
+
+# macOS 系統檔
+.DS_Store
+
+# 日誌、暫存檔
+*.log
+*.tmp
+
+# 測試覆蓋率工具
+htmlcov/
+.tox/
+.coverage
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# mypy 型別檢查
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# pyright
+.pyright/
+
+# pytest
+.pytest_cache/
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# pdm
+pdm.lock
+
+.env
